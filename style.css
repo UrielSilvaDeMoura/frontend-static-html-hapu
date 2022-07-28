@@ -7,13 +7,12 @@
 header {
     display: flex;
     flex-direction: column;
-    background-color: rgb(164, 86, 236);
+    background-color: #5912ac;
     color: white;
     background-image: url(resources/banner_image.png);
     background-size: cover;
     width: 1440px;
     height: 616px;
-    font-family: 'Inter', sans-serif;
 }
 
 header nav {
@@ -21,35 +20,31 @@ header nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
+    padding-left: 20px;
+    padding-right: 32px;
 }
 
 header nav div {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     width: 50%;
 }
 
-
 #logo-menu {
     width: 48px;
     height: 64px;
-    margin-left: 20px;
 }
 
-#menu-principal {
-    display: flex;
-    list-style: none;
-    margin-left: 50px;
-}
-
-#menu-principal li {
+#menu-principal h5 {
     margin-right: 30px;
-}
-
-#menu-acesso {
-    margin-right: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    line-height: 118%;
+    color: white;
 }
 
 #menu-acesso button {
@@ -70,32 +65,42 @@ header nav div {
 #chamada-1 {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    align-content: center;
     width: 100%;
+    margin-top: 70px;
+    /* border: 1px solid red; */
 }
 
 #chamada {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items:center;
     width: 50%;
+    /* border: 1px solid red; */
 }
 
 #titulo-chamada-1 {
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    width: 80%;
+    line-height: 48px;
+    /* border: 1px solid red; */
 }
 
 #chamada-1 p {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 30px;
+    width: 80%;
+    /* border: 1px solid red; */
 }
 
 #video-chamada-1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width:fit-content;
+    width: fit-content;
     height: 48px;
 }
 
@@ -115,4 +120,5 @@ header nav div {
 #banner-chamada {
     width: 316px;
     height: 260px;
+    /* border: 1px solid red; */
 }
