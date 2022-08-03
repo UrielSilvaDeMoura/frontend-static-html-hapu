@@ -20,7 +20,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
     padding-left: 20px;
     padding-right: 32px;
 }
@@ -70,8 +70,6 @@ header nav {
     line-height: 20px;
     text-align: center;
 }
-
-/* refatorado - final*/
 
 #chamada-1 {
     display: flex;
@@ -129,10 +127,312 @@ header nav {
     font-size: 16px;
     line-height: 24px;
     color: white;
+    text-decoration: underline;
 }
 
 #banner-chamada {
     width: 316px;
     height: 260px;
     padding-left: 20px;
+}
+
+#notificação {
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+#notificação-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 112px;
+    border: 1px solid #DFDFDF;
+}
+
+#notificação-1 img {
+    width: 56px;
+    height: 56px;
+    border-radius: 4px solid #FFFFFF;
+}
+
+#notificação-1 a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #5E20A4;
+    margin-left: 32px;
+}
+
+#notificação-1 h4 {
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 2px;
+}
+
+main {
+    background-color: #F2F2F2;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteudo-busca, #conteudo-pagamento {
+    width: 1440px;
+    padding: 120px 128px 120px 228px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#conteudo-1 {
+    display: grid;
+    grid-row: auto;
+    align-content: space-between;
+    width: 444px;
+    height: 392px;
+}
+
+#conteudo-1 h2, #conteudo-2 h2 {
+    width: 429px;
+    width: 60%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+#conteudo-1 p, #conteudo-2 p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4A4A4A;
+}
+
+#conteudo-1 a, #conteudo-1 span, #conteudo-2 a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E20A4;
+    text-decoration: underline;
+}
+
+#share-macbook {
+    width: 584px;
+    height: 392px;
+}
+
+#linha-separação {
+    width: 748px;
+    height: 0px;
+    border: 2px solid #DFDFDF;
+    background-color: #DFDFDF;
+}
+
+#cadastro {
+    width: 1440px;
+    padding: 64px 228px;
+    display: grid;
+    justify-items: center;
+}
+
+#cadastro h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+#cadastro p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D3D3D;
+    padding-top: 16px;
+}
+
+#campo-cadastro {
+    display: flex;
+    width: 584px;
+    padding-top: 74px;
+    justify-content: space-between;
+}
+
+#input-nome, #input-email {
+    width: 232px;
+    height: 48px;
+    border-radius: 1px solid #DFDFDF;
+    box-sizing: border-box;
+}
+
+#input-nome::placeholder, #input-email::placeholder{
+    padding: 14px 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3D3D3D
+}
+
+#botão-cadastro {
+    background-color: #00C88C;
+    width: 96px;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+
+#shared-payments {
+    width: 456px;
+    height: 336px;
+}
+
+#conteudo-pagamento {
+    padding: 96px 228px 96px 228px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#conteudo-2 {
+    display: grid;
+    grid-row: auto;
+    align-content: space-between;
+    width: 484px;
+    height: 276px;
+}
+
+#conteudo-2 h2 {
+    width: 411px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+#conteudo-2 p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4A4A4A;
+    padding-top: 40px;
+}
+
+#conteudo-2 a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E20A4;
+    text-decoration: underline;
+    padding-top: 40px;
+}
+
+#principios {
+    width: 1440px;
+    padding: 96px 228px 104px 228px;
+    display: grid;
+    justify-items: center;
+}
+
+#principios h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+}
+
+#principios p {
+    width: 784px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4A4A4A;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#principios a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E20A4;
+    text-decoration: underline;
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+
+#billing {
+    width: 984px;
+    height: 392px;
+}
+
+#diario {
+    display: flex;
+    width: 1440px;
+    padding: 96px 228px 120px 228px;
+    display: grid;
+    justify-items: center;
+}
+
+#daily {
+    width: 216px;
+    height: 96px;
+}
+
+#diario h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #3D3D3D;
+    padding-top: 40px;
+}
+
+#diario p {
+    width: 784px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4A4A4A;
+    padding-top: 40px;
+    text-align: center;
 }
